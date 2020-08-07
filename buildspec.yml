@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+    commands:
+      - npm install
+      - pwd
+    run-as: root
+  pre_build:
+    commands:
+      # pytest 로 테스트 시작
+      - npm test
+artifacts:
+  files:
+    - "**/*"
+cache:
+  paths:
+    - "node_modules/**/*"
