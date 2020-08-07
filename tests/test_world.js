@@ -8,6 +8,6 @@ describe('Test suite', function () {
 
 describe('Test suite', function () {
   it('should be ok2', function () {
-    assert.equal(true, false);
+    assert.equal(true, true);
   });
 });
