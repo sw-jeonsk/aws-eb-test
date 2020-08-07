@@ -5,3 +5,9 @@ describe('Test suite', function () {
     assert.equal(true, true);
   });
 });
+
+describe('Test suite', function () {
+  it('should be ok2', function () {
+    assert.equal(true, false);
+  });
+});
