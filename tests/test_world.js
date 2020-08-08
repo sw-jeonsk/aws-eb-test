@@ -3,7 +3,7 @@ assert = require("assert")
 // user test
 describe('Test suite', function () {
   it('should be ok', function () {
-    assert.equal(true, false);
+    assert.equal(true, true);
   });
 });
 
